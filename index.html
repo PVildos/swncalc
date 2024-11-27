@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Elapsed Time Calculator</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <header>
+            <h1>Elapsed Time Claculator for Interplanetary Travel</h1>
+        </header>
+        <main>
+            <section class="timecalc">
+                <form id="inputfield" action="script.js" method="post">
+                    <section class="labels">
+                        <label for="hex">Hex Distance:</label>
+                        <label for="radius">Radius from Star:</label>
+                        <label for="direction">Direction relative to star:</label>
+                    </section>
+                    <section class="inputs">
+                        <input type="number" name="hex" id="hex" placeholder="Distance">
+                        <input type="rad" name="rad" id="rad" placeholder="Radius">
+                        <input type="text" name="direction" id="direction" placeholder="South, East, West, or North">
+                    </section>
+                    
+                </form>
+                <form id="submit" action="script.js" method="post">
+                    <section class="calcbtn">
+                        <input type="submit" name="calc" id="calc" value="Calculate Time">
+                    </section>
+                </form>
+            </section>
+            <section class="otherunits">
+                <section class="unitlabels">
+                    <ul>
+                        <li>Astronomical Units:</li>
+                        <li>Parsecs:</li>
+                        <li>Light Years:</li>
+                    </ul>
+                </section>
+                <section class="unitresults">
+
+                </section>
+            </section>
+        </main>
+        
+        
+        
+        <script src="" async defer></script>
+    </body>
+</html>

@@ -1,0 +1,83 @@
+body {
+    background-image: url("../swncalc/images/galaxybg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+}
+
+header {
+    color: white;
+    text-align: center;
+    position: absolute top;
+}
+
+main {
+    display: flex;
+}
+
+.timecalc {
+    display: flex;
+    flex-direction: column;
+    max-width: fit-content;
+}
+
+label {
+    color: white;
+    font-size: 1.5em;
+    margin: 10px;
+}
+
+form {
+    display: flex;
+    height: 100%;
+}
+
+.labels, .inputs {
+    display: flex;
+    flex-direction: column;
+}
+
+input { 
+    color: white;
+    font-size: 1.25em;
+    margin: 7.5px;
+}
+.hexform, .radform, .directform {
+    display: flex;
+    align-items: stretch;
+}
+
+#submit  {
+    justify-content: flex-end;
+}
+
+#calc {
+    font-size: 2.25em;
+    color: yellow;
+    background-color: purple;
+    
+}
+
+.otherunits {
+    display: flex;
+    max-width: fit-content;
+    
+}
+
+.unitlabels {
+    display: flex;
+    flex-direction: column;
+    align-content: top;
+    color: white;
+    font-size: 2.25rem;
+}
+
+.unitlabels ul {
+    list-style: none;
+    margin-top: 0%;
+}
+
+.unitlabels li {
+
+    margin-top: 0%;
+}
